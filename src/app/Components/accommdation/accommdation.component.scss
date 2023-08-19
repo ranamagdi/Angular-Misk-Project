@@ -1,0 +1,94 @@
+.accommdation{
+  margin-top: 50px;
+  text-align: center;
+  h4{
+    color: var(--blue);
+    font-size: 400;
+    line-height: 36px;
+    letter-spacing: 24%;
+    text-transform: uppercase;
+  }
+  h3{
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    color: var(--blue);
+    span{
+      color: var(--Orange);
+    }
+  }
+  .button-icon{
+    justify-content:flex-end;
+    color: var(--blue);
+    p{
+      font-size:18px;
+      font-weight: 700;
+      line-height: 27px;
+
+
+
+    }
+     span{
+      padding-left: 10px;
+      font-size: 18px;
+
+     }
+  }
+  .product{
+    padding: 20px 0;
+
+    .slider-wrap{
+      position: relative;
+      overflow: hidden;
+
+      .slider-main{
+        margin-left: -18rem;
+        width: 200%;
+        max-height: 420px;
+        .item{
+          display: inline-block;
+          width: 330px;
+          height: 420px;
+        }
+      }
+      .prev{
+        position: absolute;
+        left: 0px;
+        top: 40%;
+        text-align: center;
+        background-color: var(--White);
+        border-radius: 4px;
+        width: 32px;
+        height: 32px;
+        border: 1px solid var(--White);
+        .icon{
+          font-size: 18px;
+          margin-top: -20px;
+          margin-left: -5px;
+          color: var(--blue);
+        }
+      }
+      .next{
+        position: absolute;
+        border: 1px solid var(--blue);
+        height: 32px;
+        width: 32px;
+        border-radius: 4px;
+        right: 0;
+        top: 40%;
+        text-align: center;
+        background-color: var(--blue);
+        color: var(--White);
+
+        .icon{
+          font-size: 18px;
+          margin-top: -20px;
+          margin-left: -5px;
+
+        }
+      }
+    }
+  }
+
+}
+

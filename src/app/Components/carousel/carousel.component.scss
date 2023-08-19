@@ -1,0 +1,58 @@
+.mdb-carousel{
+  height:729px !important;
+}
+.caption-content {
+ top: 14rem !important;
+ h5{
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 108px;
+
+ }
+ p{
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+
+ }
+
+}
+.contact{
+  padding-top: 70px;
+  justify-content: space-between;
+
+
+}
+@media(max-width:600px ) and (min-width:200px) {
+  .caption-content {
+    top: -10px !important;
+   display: block;
+   }
+   .caption-content  h5{
+    font-weight: 700;
+    font-size: 22px !important;
+    line-height: 108px;
+
+   }
+  .caption-content p{
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 30px;
+
+   }
+
+}
+
+
+@media(max-width:1200px ) and (min-width:600px) {
+  .caption-content {
+    top: 0rem !important;
+
+   }
+
+}
+
+
+
+
+

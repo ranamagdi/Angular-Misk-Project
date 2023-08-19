@@ -1,0 +1,48 @@
+.sphere2{
+  position: relative;
+
+
+  b.ball {
+    display: block;
+    width: 12px;
+    height: 12px;
+    background-color: var(--Orange);
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 8px;
+
+    animation-name: cube1;
+    animation-duration: 2.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+
+
+
+  }
+  @keyframes cube1{
+    0% {
+
+      left: 0;
+    }
+    25% {
+
+      left: 30%;
+    }
+    50% {
+
+      left: 37%;
+    }
+    75% {
+
+      left: 30%;
+    }
+    100% {
+
+      left: 0;
+    }
+  }
+}
+
+

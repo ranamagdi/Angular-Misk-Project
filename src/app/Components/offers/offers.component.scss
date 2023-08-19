@@ -1,0 +1,243 @@
+.offers{
+  margin-top: 50px;
+  text-align: center;
+
+  h4{
+    color: var(--blue);
+    font-size: 400;
+    line-height: 36px;
+    letter-spacing: 24%;
+    text-transform: uppercase;
+  }
+  h3{
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    color: var(--blue);
+    span{
+      color: var(--Orange);
+    }
+  }
+  .Rectangles{
+    margin-top: 20px;
+    .Rectangle{
+      background-color: rgba(244, 244, 244, 1);
+      border-radius: 33px;
+      padding: 30px;
+      width: 538px;
+      height: 680px;
+      position: relative;
+      margin-right: 8px;
+      margin-left: 8px;
+      .images{
+        .image1{
+          position: relative;
+          padding-right: 60px;
+          padding-left: 20px;
+          margin-top: 10px;
+
+
+        }
+
+        p{
+          color: rgba(37, 37, 37, 1);
+          font-weight: 700;
+          font-size: 13px;
+          line-height: 19.5px;
+          text-align: center;
+          margin-top: 10rem;
+          margin-left: -10px;
+
+        }
+        img{
+          box-shadow: 1.4236853122711182px 1.4236853122711182px 14.236851692199707px 0px rgba(43, 43, 43, 0.5);
+          border-radius: 50%;
+          width: 154.82px;
+          height: 154.82px;
+          position: absolute;
+
+
+        }
+      }
+      .images2{
+        img{
+          box-shadow: 1.4236853122711182px 1.4236853122711182px 14.236851692199707px 0px rgba(43, 43, 43, 0.5);
+          border-radius: 50%;
+          width: 154.82px;
+          height: 154.82px;
+
+        }
+        p{
+          color: rgba(37, 37, 37, 1);
+          font-weight: 700;
+          font-size: 13px;
+          line-height: 19.5px;
+          text-align: center;
+
+
+        }
+      }
+
+      p{
+        color: rgba(37, 37, 37, 1);
+        font-weight: 400;
+        font-size: 15.09px;
+        line-height: 22.64px;
+        padding-top: 20px;
+      }
+      .icons{
+        .icon1{
+          display: flex;
+          justify-content: space-between;
+          margin-bottom: 30px;
+
+
+        .icon{
+          font-size: 28.54px;
+          color: var(--Orange);
+          padding-right: 10px;
+        }
+
+        span{
+          color: rgba(37, 37, 37, 1);
+          font-weight: 300;
+          font-size: 14px;
+          line-height: 21px;
+
+        }
+      }
+      .icon2{
+        text-align: left;
+
+        .icon{
+          font-size: 28.54px;
+          color: var(--Orange);
+          padding-right: 10px;
+        }
+        span{
+          color: rgba(37, 37, 37, 1);
+          font-weight: 300;
+          font-size: 14px;
+          line-height: 21px;
+
+        }
+        .span-icon{
+          padding-right: 10rem;
+        }
+
+
+      }
+
+      }
+      button{
+        background-color: var(--blue);
+        width: 202px;
+        height: 44px;
+        border-radius: 5px;
+        padding: 8px, 32px, 8px, 32px;
+        gap: 10px;
+        text-transform: capitalize;
+        text-align: center;
+        color: var(--White);
+        font-size: 14px;
+        line-height: 21px;
+        font-weight: 600;
+        margin-top: 30px;
+        margin-left: 17rem;
+      animation-timing-function: ease-in-out;
+      animation-duration: 300ms;
+
+      }
+       .off{
+        display: flex;
+        justify-content: space-between;
+        .off-p{
+
+          width: 130.78px;
+          height: 45.27px;
+          img{
+            position: relative;
+            left: -40px;
+          }
+
+        p{
+          font-weight: 700;
+          font-size: 20.12px;
+          line-height: 30.18px;
+          color: var(--White);
+          position: absolute;
+          top: 14px;
+          left: 10px;
+
+
+
+        }
+      }
+        .dollar{
+        .number{
+          color: var(--Orange);
+          font-weight: 700;
+          font-size: 32px;
+          line-height: 48px;
+          margin-top: -25px;
+        }
+        .stars{
+          margin-top: -20px;
+          color: yellow;
+        }
+      }
+       }
+    }
+
+}
+
+}
+
+@media(max-width:600px) and (min-width:200px){
+  .offers .Rectangles .Rectangle{
+    width: 100%;
+    margin-bottom: 36px;
+  }
+  .offers .Rectangles .Rectangle .images .image1{
+
+    padding-right: 2px;
+    padding-left: 0px;
+
+    }
+    .offers .Rectangles .Rectangle .images p{
+
+      margin-left: 15px;
+
+    }
+    .offers .Rectangles .Rectangle .icons .icon2 .span-icon{
+        padding-right: 3rem;
+      }
+     .offers .Rectangles .Rectangle button{
+
+        width: 180px;
+        height: 50px;
+        margin-top: 10px;
+        padding: 0px, 32px, 0px, 32px;
+        margin-left: auto;
+
+
+      }
+      .offers .Rectangles .Rectangle .icons .icon1 .icon{
+        padding-right: 15px;
+      }
+
+}
+
+@media(max-width:1000px) and (min-width:600px){
+  .offers .Rectangles .Rectangle{
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .offers .Rectangles .Rectangle .icons .icon2 .span-icon{
+    padding-right: 21rem;
+  }
+
+
+
+
+}

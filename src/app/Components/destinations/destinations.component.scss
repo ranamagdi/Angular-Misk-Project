@@ -1,0 +1,60 @@
+.destinations{
+  margin-top: 50px;
+  text-align: center;
+
+  h4{
+    color: var(--blue);
+    font-size: 400;
+    line-height: 36px;
+    letter-spacing: 24%;
+    text-transform: uppercase;
+  }
+  h3{
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    color: var(--blue);
+    span{
+      color: var(--Orange);
+    }
+  }
+  .Rectangles{
+    .Rectangle{
+      text-align: left;
+      .content{
+        h3{
+          font-weight: 600;
+          font-size: 40px;
+          line-height: 60px;
+          color: var(--blue);
+        }
+        p{
+          font-weight: 400;
+          font-size: 20px;
+          line-height: 40px;
+          color: rgba(12, 17, 31, 0.8);
+        }
+        button{
+          background: linear-gradient(180deg, #2A4797 0%, #0081D5 100%);
+          text-align: center;
+          gap: 10px;
+          border-radius: 5px;
+          padding: 8px, 32px, 8px, 32px;
+          height: 44px;
+          color: var(--White);
+          font-weight: 600;
+          font-size: 18px;
+          line-height: 27px;
+          width: 170px;
+
+        }
+      }
+    }
+  }
+}
+@media(max-width:1000px){
+  .destinations .Rectangles .Rectangle{
+    flex-direction: column;
+    text-align: center;
+  }
+}

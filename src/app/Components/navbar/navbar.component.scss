@@ -1,0 +1,42 @@
+.navbar{
+  .blogicon{
+    font-size: 24px;
+    color:rgba(5, 75, 153, 1);
+
+  }
+  .nav-item{
+    .nav-link{
+      color: black;
+      line-height: 24px;
+      font-weight: 400;
+      padding: 10px;
+      gap: 10px;
+
+
+    }
+  }
+
+.dropdown-item{
+  color: var(--Black);
+  line-height: 24px;
+  font-weight: 400;
+
+}
+.navbar-brand{
+  margin-left: 30px;
+  margin-right: 12rem;
+}
+
+
+}
+
+@media (max-width:1000px){
+  .navbar .navbar-brand{
+    margin-left: 10px;
+ 
+  }
+
+
+
+}
+

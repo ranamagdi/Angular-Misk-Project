@@ -1,0 +1,110 @@
+.clients{
+  margin-top: 50px;
+  text-align: center;
+
+  h4{
+    color: var(--blue);
+    font-size: 400;
+    line-height: 36px;
+    letter-spacing: 24%;
+    text-transform: uppercase;
+  }
+  h3{
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    color: var(--blue);
+    span{
+      color: var(--Orange);
+    }
+  }
+  .Rectangles{
+  .Rectangle{
+    position: relative;
+    margin-top: 20px;
+    background-color:rgba(255, 255, 255, 1) ;
+    border-radius: 10px;
+    width: 530px;
+    margin-right: 20px;
+    margin-left: 20px;
+    height: 224px;
+    box-shadow: 2px 2px 25px 0px rgba(43, 43, 43, 0.15);
+    padding: 40px 20px;
+  .content{
+    display: flex;
+    img{
+      padding-right: 15px;
+    }
+    hr{
+      width: 85px;
+      border: 1px solid rgba(217, 217, 217, 1);
+    }
+    .p-black{
+      color: rgba(34, 34, 34, 1);
+      margin-bottom: 0;
+
+    }
+    p{
+      text-align: left;
+      font-weight: 500;
+      font-size: 15px;
+      line-height: 22.5px;
+      color: rgba(195, 195, 195, 1);
+    }
+
+  }
+  .content-img{
+    display: flex;
+    padding: 20px;
+    .image{
+      background-color: rgba(52, 224, 161, 1);
+      border-radius: 50%;
+      width: 43.5px;
+      height: 43.5px;
+      padding-top: 3px;
+      margin-right: 35px;
+      border: 3px solid rgba(52, 224, 161, 1);
+    }
+    p{
+      font-weight: 500;
+      font-size: 15px;
+      line-height: 22.5px;
+      color: rgba(37, 37, 37, 0.6);
+
+      text-align: left;
+    }
+  }
+  .edge{
+    position: absolute;
+    top: -20px;
+    right: -43px;
+
+  }
+  }
+}
+button{
+  background-color: var(--blue);
+  width: 172px;
+  height: 44px;
+  border-radius: 5px;
+  padding: 8px, 32px, 8px, 32px;
+  gap: 10px;
+  text-align: center;
+  color: var(--White);
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 600;
+  margin-top: 30px;
+  animation-timing-function: ease-in-out;
+  animation-duration: 300ms;
+}
+}
+
+@media (max-width:1000px){
+  .clients .Rectangles .Rectangle{
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+

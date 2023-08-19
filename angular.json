@@ -30,9 +30,15 @@
               "src/assets"
             ],
             "styles": [
+
               "src/styles.scss"
+
+
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/chart.js/dist/chart.js"
+
+            ]
           },
           "configurations": {
             "production": {
@@ -100,5 +106,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "9b684b33-5db6-4d1d-b54e-c430c7bdf80d"
   }
 }

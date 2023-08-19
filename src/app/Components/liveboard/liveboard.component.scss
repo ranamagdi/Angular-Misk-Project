@@ -1,0 +1,179 @@
+.liveboard{
+  margin-top: 50px;
+  text-align: center;
+
+  h4{
+    color: var(--blue);
+    font-size: 400;
+    line-height: 36px;
+    letter-spacing: 24%;
+    text-transform: uppercase;
+  }
+  h3{
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    color: var(--blue);
+    span{
+      color: var(--Orange);
+    }
+  }
+  .Rectangles{
+  .Rectangle{
+    position: relative;
+    margin-top: 20px;
+    background-color:rgba(255, 255, 255, 1) ;
+    border-radius: 20px;
+    width: 363px;
+    margin-right: 8px;
+    margin-left: 8px;
+    height: 536px;
+    box-shadow: 2px 2px 25px 0px rgba(43, 43, 43, 0.15);
+
+
+  .content{
+
+    img{
+
+      border-radius: 20px 20px 20px 0px;
+      width: 363px;
+      height: 325px;
+      margin-left: -12px;
+      transition:top 220ms;
+    }
+
+    hr{
+      width:328.01px;
+      border: 1px solid rgba(231, 231, 231, 1);
+      color: rgba(231, 231, 231, 1);
+    }
+    .stars{
+      text-align: left;
+      .icon{
+        color:yellow ;
+        font-size: 24px;
+
+      }
+    }
+    .p-black{
+      margin-top: 10px;
+      color: var(--blue);
+      margin-bottom: 0;
+      font-weight: 500;
+      line-height: 24px;
+      font-size: 16px;
+
+
+    }
+
+    p{
+      text-align: left;
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 24px;
+      color: rgba(146, 144, 144, 1);
+    }
+    .icon{
+      color: var(--Orange);
+      font-size: 17.49px;
+    }
+
+  }
+  .price-explore{
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    p{
+      font-weight: 300;
+      font-size: 14px;
+      line-height: 21px;
+      color: rgba(146, 144, 144, 1);
+    }
+    .arrow{
+      display: flex;
+      margin-top: 15px;
+    .p-orange{
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 21px;
+      color: var(--Orange);
+    }
+    .icon{
+      font-size: 24px;
+      color: var(--Orange);
+      padding-left: 18px;
+
+    }
+  }
+    .from{
+    .price{
+      color: var(--blue);
+      font-weight: 600;
+      line-height: 24px;
+      span{
+        font-weight: 300;
+        line-height: 24px;
+      }
+
+    }
+  }
+  }
+  .edge{
+    position: absolute;
+    display: flex;
+    width: 229.61px;
+    height:43px;
+    background-color: var(--White);
+    border-radius: 0px 10px 0px 0px;
+    top: 17.8rem;
+    left: 0;
+    padding: 10px 20px;
+    span{
+      color: rgba(146, 144, 144, 1);
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 21px;
+    }
+    .icon{
+      color: var(--Orange);
+      font-size: 17.49px;
+      padding-right: 10px;
+
+    }
+
+
+  }
+  }
+}
+button{
+  background-color: var(--blue);
+  width: 202px;
+  height: 44px;
+  border-radius: 5px;
+  padding: 8px, 32px, 8px, 32px;
+  gap: 10px;
+  text-align: center;
+  color: var(--White);
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 600;
+ margin-left: 60px;
+  margin-top: 30px;
+animation-timing-function: ease-in-out;
+animation-duration: 300ms;
+
+}
+}
+
+@media (max-width:1000px){
+  .liveboard .Rectangles .Rectangle{
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .liveboard .Rectangles .Rectangle .content img{
+    width: 100%;
+  }
+
+}
+

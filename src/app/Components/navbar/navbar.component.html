@@ -1,0 +1,75 @@
+<nav class="navbar sticky-top navbar-expand-lg navbar-white bg-white">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img src="assets/images/logo.png"></a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      (click)="basicNav.toggle()"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <i class="fas fa-bars"></i>
+    </button>
+    <div
+      class="collapse navbar-collapse "
+      id="navbarNav"
+      mdbCollapse
+      #basicNav="mdbCollapse"
+    >
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <!-- Dropdown -->
+      <li mdbDropdown class="nav-item dropdown">
+        <a
+          class="nav-link dropdown-toggle"
+          href="#"
+          id="navbarDropdownMenuLink"
+          role="button"
+          mdbDropdownToggle
+          aria-expanded="false"
+        >
+          Destinations
+        </a>
+        <ul mdbDropdownMenu class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <li>
+            <a class="dropdown-item" href="#">Marsa Alam</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="#">El Quesier</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="#">Porto Ghaleb</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="#">Hurghada</a>
+          </li>
+        </ul>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Tours&Activities</a>
+      </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Liveboard</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#">Hotels</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Transfer</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><i class="fa-solid fa-blog blogicon"></i></a>
+        </li>
+
+
+      </ul>
+    </div>
+  </div>
+
+</nav>

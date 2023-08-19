@@ -1,1 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
+@import '@fortawesome/fontawesome-free/scss/fontawesome.scss';
+@import '@fortawesome/fontawesome-free/scss/solid.scss';
+@import '@fortawesome/fontawesome-free/scss/regular.scss';
+@import '@fortawesome/fontawesome-free/scss/brands.scss';
+@import 'ngx-owl-carousel-o/lib/styles/scss/owl.carousel';
+@import 'ngx-owl-carousel-o/lib/styles/scss/owl.theme.default';
+
+@import 'mdb-angular-ui-kit/assets/scss/mdb.scss';
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+
+:root {
+  /* Colors */
+  --Orange: rgba(255, 104, 26, 1);
+  --blue:rgba(0, 71, 150, 1);
+  --White: #FFFFFF;
+  --Black: #000000;
+  font-family: 'Poppins', sans-serif;
+}
